@@ -54,4 +54,6 @@ In other to perform this analysis, 500 tweets were labeled by the collaborators:
 For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/keras/sequential_model) model with [TensorFlow](https://www.tensorflow.org/) was used to make the classification.
 
 
+To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit) was applied to a layer, consists of randomly "dropping out" (i.e. set to zero) a number of output features of the layer during training. Let's say a given layer would normally have returned a vector [0.2, 0.5, 1.3, 0.8, 1.1] for a given input sample during training; after applying dropout, this vector will have a few zero entries distributed at random, e.g. [0, 0.5, 1.3, 0, 1.1].
+
 
