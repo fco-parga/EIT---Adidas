@@ -112,8 +112,11 @@ Finally, evaluating the model with the test data set, the model performs on a 40
 Due to a small data set to train, the accuracy on the test data is low. The matrix below shows the predictions vs the true labels. The green boxes highlight the correct predictions while the grey boxes highlight the wrong predictions.
 
 
+![2021-09-07 00_14_42-Window](https://user-images.githubusercontent.com/74114604/132283377-eb3522bc-eb86-4b52-9538-8ff5bca8b93e.png)
+
+
+
 To improve the accuracy, a larger data set is needed.
 
-![2021-09-07 00_14_42-Window](https://user-images.githubusercontent.com/74114604/132283377-eb3522bc-eb86-4b52-9538-8ff5bca8b93e.png)
 
 
