@@ -64,10 +64,10 @@ To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/ove
 
 
 
-![image](https://user-images.githubusercontent.com/74114604/132270501-d6fe079c-b68d-4c75-9a31-9ab2c663f9aa.png)
+![2021-09-06 21_48_55-Window](https://user-images.githubusercontent.com/74114604/132272043-af0b31e3-6113-4551-9786-2722be37be05.png)
 
 
-![image](https://user-images.githubusercontent.com/74114604/132270506-a9c48c3d-b875-4085-ab88-6e840f0ca344.png)
+![2021-09-06 21_49_04-Window](https://user-images.githubusercontent.com/74114604/132272046-fa9f7d26-31ff-420a-a272-0da6f181bf14.png)
 
 
 
