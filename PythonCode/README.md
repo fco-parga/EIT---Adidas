@@ -4,7 +4,7 @@ _This notebook covers a Natural Language Processing with [TensorFlow](https://ww
 
 ___
 
-# twitterScraper_v02.ipynb
+# [twitterScraper_v02.ipynb](https://github.com/fco-parga/EIT---Adidas/blob/main/PythonCode/twitterScraper_v02.ipynb)
 
 _This is a tool to search for tweets with specific keywords. To use this tool, is necessary to create a project app in Twitter as [developer](https://developer.twitter.com/)_
 
