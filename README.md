@@ -97,7 +97,8 @@ Using 50 epoch the model was compiled and fitted using the [Nadam](http://cs229.
 
 
 
-![2021-09-07 00_22_52-Window](https://user-images.githubusercontent.com/74114604/132283976-35fa5d1f-8f2c-4e5d-97a5-7a27f8e3fabd.png)
+
+![2021-09-07 00_54_50-Window](https://user-images.githubusercontent.com/74114604/132286439-3809e2a6-4c8c-4932-9c74-2dc534fbe4b4.png)
 
 
 
