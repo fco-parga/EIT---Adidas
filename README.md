@@ -30,6 +30,13 @@ VADER is a lexicon and rule-based sentiment analysis tool that is specifically a
 >Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
 
 
+Classifying the tweets by sentiment and creating a word cloud, it can be observed some occurrences on specific word due to the sentiment.
+
+
+![2021-09-07 00_31_37-Window](https://user-images.githubusercontent.com/74114604/132284788-01c0c49e-c2ec-47e3-a9d4-3c4516425ee3.png)
+
+
+
 ## Intent of purchase Analysis
 
 
