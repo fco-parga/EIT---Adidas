@@ -63,11 +63,19 @@ For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/kera
 To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit) was applied to a layer, consists of randomly "dropping out" (i.e. set to zero) a number of output features of the layer during training. Let's say a given layer would normally have returned a vector [0.2, 0.5, 1.3, 0.8, 1.1] for a given input sample during training; after applying dropout, this vector will have a few zero entries distributed at random, e.g. [0, 0.5, 1.3, 0, 1.1].
 
 
+For the training, the data was balanced, by reducing the majority of the labels 0, to avoid preference on the model by this class.
 
-![2021-09-06 21_48_55-Window](https://user-images.githubusercontent.com/74114604/132272043-af0b31e3-6113-4551-9786-2722be37be05.png)
+
+![2021-09-06 22_04_31-Window](https://user-images.githubusercontent.com/74114604/132273146-067ebd56-ed5f-48cb-94b1-501588c07c9a.png)
 
 
-![2021-09-06 21_49_04-Window](https://user-images.githubusercontent.com/74114604/132272046-fa9f7d26-31ff-420a-a272-0da6f181bf14.png)
+
+
+![2021-09-06 21_48_55-Window](https://user-images.githubusercontent.com/74114604/132273159-9a553978-ab6f-460b-a2e7-83be3b572a07.png)
+
+
+![2021-09-06 21_49_04-Window](https://user-images.githubusercontent.com/74114604/132273162-02077ffd-7d0a-439c-a85e-779b7445461a.png)
+
 
 
 
