@@ -80,11 +80,8 @@ For the input layer, the [nnlm-en-dim128]( https://tfhub.dev/google/nnlm-en-dim1
 Using 50 epoch the model was compiled and fitted using the [Nadam](http://cs229.stanford.edu/proj2015/054_report.pdf) optimizer with a loss function of [Categorical Crossentropy]( https://keras.io/api/losses/probabilistic_losses/#categoricalcrossentropy-class)  and splitting the data with a test/validation set of  75/25
 
 
-![2021-09-06 23_43_59-Window](https://user-images.githubusercontent.com/74114604/132281131-05d54e7e-a0d1-4ae5-ac74-b2606f295912.png)
 
-
-
-![2021-09-06 23_44_10-Window](https://user-images.githubusercontent.com/74114604/132281142-97e1c71e-f682-4643-a333-fd8cf014adcd.png)
+![2021-09-06 23_57_08-Window](https://user-images.githubusercontent.com/74114604/132282087-54ed127c-3b46-4292-9c3b-f6bc80a2366b.png)
 
 
 
