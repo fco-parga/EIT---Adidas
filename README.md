@@ -86,7 +86,7 @@ The data was balanced for traing the model, by reducing the majority of the labe
 ![2021-09-06 22_08_41-Window](https://user-images.githubusercontent.com/74114604/132273479-4526da47-460f-4c8d-b3d7-b24798624545.png)
 
 
-The intent of purchase uses a [Sequential] (https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow] (https://www.tensorflow.org/) model to make the classification.
+The intent of purchase uses a [Sequential](https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow](https://www.tensorflow.org/) model to make the classification.
 
 
 For the input layer, the [nnlm-en-dim128]( https://tfhub.dev/google/nnlm-en-dim128/2) text embedder was used.
