@@ -57,6 +57,8 @@ Since the tweet data was limited to only 7 days of scraping, the corpus is bias 
 >
 _Setting the classification to 2, 1 & 0 respectively._
 
+### Modelling
+
 For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/keras/sequential_model) model with [TensorFlow](https://www.tensorflow.org/) was used to make the classification.
 
 
@@ -65,8 +67,13 @@ To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/ove
 
 For the training, the data was balanced, by reducing the majority of the labels 0, to avoid preference on the model by this class.
 
+![2021-09-06 22_08_41-Window](https://user-images.githubusercontent.com/74114604/132273479-4526da47-460f-4c8d-b3d7-b24798624545.png)
 
-![2021-09-06 22_04_31-Window](https://user-images.githubusercontent.com/74114604/132273146-067ebd56-ed5f-48cb-94b1-501588c07c9a.png)
+
+For the intent of purchase, a [Sequential] (https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow] (https://www.tensorflow.org/) model was used to make the classification.
+
+
+For the input layer, the [nnlm-en-dim128]( https://tfhub.dev/google/nnlm-en-dim128/2) text embedder was used.
 
 
 
