@@ -36,6 +36,14 @@ Classifying the tweets by sentiment and creating a word cloud, it can be observe
 ![2021-09-07 00_31_37-Window](https://user-images.githubusercontent.com/74114604/132284788-01c0c49e-c2ec-47e3-a9d4-3c4516425ee3.png)
 
 
+To compare the performance of this sentiment analysis tool, a matrix with the predictions vs the actual labels shown below, displays the corrected predicted sentiment in green and the mislabeled sentiments in grey.
+
+
+
+![2021-09-07 00_41_49-Window](https://user-images.githubusercontent.com/74114604/132286112-e636172f-1b40-45e5-a42e-13b8dfa101bf.png)
+
+
+
 
 ## Intent of purchase Analysis
 
