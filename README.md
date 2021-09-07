@@ -23,7 +23,9 @@ ___
 
 **Sentiment Analysis**
 
-To analyze the sentiment on the scraped tweets, VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner) was used.
+To analyze the sentiment on the scraped tweets, VADER Sentiment Analysis was used, VADER stands for: Valence Aware Dictionary and sEntiment Reasoner.
+
+
 VADER is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
 >Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
 
@@ -48,4 +50,6 @@ In other to perform this analysis, 500 tweets were labeled by the collaborators:
 -Eg. 
 >@playingarts @leonardoworx @Adobe @WIRED @billboard @adidas This is my personal favorite. So glad I could afford one before these take off!
 
+
+For the intent of purchase, a [Sequential] (https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow] (https://www.tensorflow.org/) model was used to make the classification.
 
