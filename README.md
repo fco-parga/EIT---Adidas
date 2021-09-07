@@ -65,19 +65,19 @@ For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/kera
 To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit) was applied to a layer, consists of randomly "dropping out" (i.e. set to zero) a number of output features of the layer during training. Let's say a given layer would normally have returned a vector [0.2, 0.5, 1.3, 0.8, 1.1] for a given input sample during training; after applying dropout, this vector will have a few zero entries distributed at random, e.g. [0, 0.5, 1.3, 0, 1.1].
 
 
-For the training, the data was balanced, by reducing the majority of the labels 0, to avoid preference on the model by this class.
+The data was balanced for traing the model, by reducing the majority of the labels 0, to avoid preference on the model by this class.
 
 ![2021-09-06 22_08_41-Window](https://user-images.githubusercontent.com/74114604/132273479-4526da47-460f-4c8d-b3d7-b24798624545.png)
 
 
-For the intent of purchase, a [Sequential] (https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow] (https://www.tensorflow.org/) model was used to make the classification.
+The intent of purchase uses a [Sequential] (https://www.tensorflow.org/guide/keras/sequential_model) [TensorFlow] (https://www.tensorflow.org/) model to make the classification.
 
 
 For the input layer, the [nnlm-en-dim128]( https://tfhub.dev/google/nnlm-en-dim128/2) text embedder was used.
 
 
 
-
+Using 50 e
 ![2021-09-06 21_48_55-Window](https://user-images.githubusercontent.com/74114604/132273159-9a553978-ab6f-460b-a2e7-83be3b572a07.png)
 
 
