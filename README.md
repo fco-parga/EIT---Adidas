@@ -51,6 +51,11 @@ In other to perform this analysis, 500 tweets were labeled by the collaborators:
 >_@playingarts @leonardoworx @Adobe @WIRED @billboard @adidas This is my personal favorite. So glad I could afford one before these take off!_
 
 
+Since the tweet data was limited to only 7 days of scraping, the corpus is bias to this time frame. To improve the model prediction strength, control points were imputed to the training set:
+
+>['i want adidas', 'will not buy adidas', 'probably i will buy adidas']
+_Setting the classification to 2, 0 & 1 respectively._
+
 For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/keras/sequential_model) model with [TensorFlow](https://www.tensorflow.org/) was used to make the classification.
 
 
