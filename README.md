@@ -40,7 +40,8 @@ To compare the performance of this sentiment analysis tool, a matrix with the pr
 
 
 
-![2021-09-07 00_41_49-Window](https://user-images.githubusercontent.com/74114604/132286112-e636172f-1b40-45e5-a42e-13b8dfa101bf.png)
+![2021-09-07 00_52_33-Window](https://user-images.githubusercontent.com/74114604/132286291-764a7a27-3fd8-49a0-a2d3-7f86167c11d2.png)
+
 
 
 
