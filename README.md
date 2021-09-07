@@ -77,13 +77,19 @@ For the input layer, the [nnlm-en-dim128]( https://tfhub.dev/google/nnlm-en-dim1
 
 
 
-Using 50 e
-![2021-09-06 21_48_55-Window](https://user-images.githubusercontent.com/74114604/132273159-9a553978-ab6f-460b-a2e7-83be3b572a07.png)
+Using 50 epoch the model was compiled and fitted using the [Nadam](http://cs229.stanford.edu/proj2015/054_report.pdf) optimizer with a loss function of [Categorical Crossentropy]( https://keras.io/api/losses/probabilistic_losses/#categoricalcrossentropy-class)  and splitting the data with a test/validation set of  75/25
 
 
-![2021-09-06 21_49_04-Window](https://user-images.githubusercontent.com/74114604/132273162-02077ffd-7d0a-439c-a85e-779b7445461a.png)
-
+![2021-09-06 23_43_59-Window](https://user-images.githubusercontent.com/74114604/132281131-05d54e7e-a0d1-4ae5-ac74-b2606f295912.png)
 
 
 
+![2021-09-06 23_44_10-Window](https://user-images.githubusercontent.com/74114604/132281142-97e1c71e-f682-4643-a333-fd8cf014adcd.png)
+
+
+
+Having a training accuracy of 87%, with a loss of 0.54 and a validation accuracy of 72% with a validation loss of 0.91
+
+
+Finally, evaluating the model with the test data set, the model performs on a 40% accuracy with ta loss of 1.56
 
