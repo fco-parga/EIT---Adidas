@@ -53,13 +53,22 @@ In other to perform this analysis, 500 tweets were labeled by the collaborators:
 
 Since the tweet data was limited to only 7 days of scraping, the corpus is bias to this time frame. To improve the model prediction strength, control points were imputed to the training set:
 
->['i want adidas', 'will not buy adidas', 'probably i will buy adidas']
+>['i want adidas','probably i will buy adidas','will not buy adidas']
 >
-_Setting the classification to 2, 0 & 1 respectively._
+_Setting the classification to 2, 1 & 0 respectively._
 
 For the intent of purchase, a [Sequential](https://www.tensorflow.org/guide/keras/sequential_model) model with [TensorFlow](https://www.tensorflow.org/) was used to make the classification.
 
 
 To prevent overfitting, [Dropout](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit) was applied to a layer, consists of randomly "dropping out" (i.e. set to zero) a number of output features of the layer during training. Let's say a given layer would normally have returned a vector [0.2, 0.5, 1.3, 0.8, 1.1] for a given input sample during training; after applying dropout, this vector will have a few zero entries distributed at random, e.g. [0, 0.5, 1.3, 0, 1.1].
+
+
+
+![image](https://user-images.githubusercontent.com/74114604/132270501-d6fe079c-b68d-4c75-9a31-9ab2c663f9aa.png)
+
+
+![image](https://user-images.githubusercontent.com/74114604/132270506-a9c48c3d-b875-4085-ab88-6e840f0ca344.png)
+
+
 
 
